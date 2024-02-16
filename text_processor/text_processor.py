@@ -8,8 +8,8 @@ def sentence_tokenize(text):
     return text.split(".")
 
 def word_count(text):
-    return len(text.split()
-               )
+    return len(text.split())
+
 def character_count(text):
     return len(text)
 
@@ -27,7 +27,7 @@ def find_occurrences(text, keyword):
 
 def average_word_length(text):
   words = text.split()
-  total_length = sum(len(word) for word in words)
-  return total_length / len(words)
+  number_s = len(text) 
+  return number_s/ len(words)
 
 
